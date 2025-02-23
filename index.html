@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+    <a href="https://icons8.com/icon/65323/car"></a><a href="https://icons8.com"></a>
+</head>
+
+<body>
+
+    <!-- Header site -->
+    <header>
+        <div class="logo scroll-scale"><span>P</span>ortfolio.</div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1">Home</a></li>
+            <li><a href="#about" style="--i:2">About</a></li>
+            <li><a href="#education" style="--i:3">Education</a></li>
+            <li><a href="#skill" style="--i:4">Skills</a></li>
+            <li><a href="#project" style="--i:5">Project</a></li>
+            <li><a href="#contact" style="--i:6">Contact</a></li>
+        </ul>
+        <div id="menu-icon" class="bx bx-menu"></div>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content scroll-scale">
+            <h1>Hi! I'm Arti Kumari</h1>
+            <div class="change-text">
+                <h3>& I'm a&nbsp;</h3>
+                <h2>
+                    <span class="word">Architech Designer</span>
+                </h2>
+            </div>
+
+            <p>Experienced architectural interior designer skilled in creating functional and innovative spaces.
+                Proficient in AutoCAD,
+                Google SketchUP, and V-Ray. Strong teamwork, adaptability, and client-focused communication.
+            </p>
+
+            <div class="info-box">
+                <div class="email-info">
+                    <h5>Email :</h5>
+                    <span>arti12180kumari@gmail.com</span>
+                </div>
+
+            </div>
+
+            <div class="btn-box">
+                <a href="https://drive.google.com/file/d/13MA7uDLik44B4kLvLPn0gg2ABoAs26zr/view?usp=drive_link"
+                    target="_blank" class="btn">Download CV</a>
+            </div>
+        </div>
+
+        <div class="home-image scroll-scale">
+            <div class="img-box">
+                <img src="images/my-image.png" alt="My Profile">
+            </div>
+
+            <!-- <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                        <animate attributeName = "d"
+                            dur="20000ms"
+                            repeatCount = "indefinite"
+                            values = "M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                            M432,304Q437,358,400.5,402.5Q364,447,307,442.5Q250,438,203.5,424Q157,410,103,388Q49,366,37.5,308Q26,250,65,208Q104,166,132.5,130.5Q161,95,205.5,76Q250,57,288,87.5Q326,118,359,143Q392,168,409.5,209Q427,250,432,304Z;
+    
+                            M439.96591,298.31007Q417.2749,346.62013,391.01678,397.1894Q364.75866,447.75866,307.37933,434.53409Q250,421.30953,202.36201,417.93074Q154.72403,414.55195,114.37987,383.06872Q74.03571,351.5855,74.2949,300.79275Q74.5541,250,68.79329,196.2408Q63.03248,142.48161,115.80953,125.56872Q168.58658,108.65584,209.29329,83.96591Q250,59.27597,303.93181,61.32631Q357.86363,63.37664,398.82953,101.65315Q439.79544,139.92966,451.22618,194.96483Q462.65692,250,439.96591,298.31007Z;
+    
+    
+                            M410.16473,300.1606Q424.42219,350.32119,400.81209,410.14239Q377.20199,469.96358,313.60099,492.39985Q250,514.83612,208.10099,455.65647Q166.20199,396.47682,102.74751,383.9404Q39.29304,371.40398,62.81622,310.70199Q86.3394,250,109.04637,215.68378Q131.75333,181.36756,123.31209,98.98592Q114.87085,16.60428,182.43542,40.74254Q250,64.8808,283.98592,98.75746Q317.97184,132.63413,386.48592,132.42716Q455,132.2202,425.45363,191.1101Q395.90727,250,410.16473,300.1606Z;
+    
+                            M437.13685,302.78796Q433.27299,355.57591,381.59052,372.27191Q329.90804,388.96791,289.95402,427.01389Q250,465.05987,200.42409,443.33321Q150.84818,421.60656,108.78796,388.66679Q66.72773,355.72701,77.80328,302.86351Q88.87883,250,104.34854,212.43942Q119.81825,174.87883,134.62153,125.57627Q149.42481,76.27371,199.7124,41.95438Q250,7.63506,299.77299,42.5898Q349.54598,77.54454,392.87883,109.93906Q436.21169,142.33357,438.6062,196.16679Q441.00072,250,437.13685,302.78796Z;
+    
+                            M406.24765,292.87426Q398.74743,335.74852,375.99967,382.3759Q353.25191,429.00328,301.62596,439.62618Q250,450.24907,192.49945,449.37546Q134.99891,448.50186,98.49923,403.62607Q61.99956,358.75027,63.49891,304.37514Q64.99825,250,70.74754,200.1241Q76.49683,150.2482,108.49803,105.24841Q140.49923,60.24863,195.24962,46.00033Q250,31.75202,308.37557,40.25005Q366.75115,48.74809,396.00022,98.87426Q425.24929,149.00044,419.49858,199.50022Q413.74787,250,406.24765,292.87426Z;
+    
+                            M443.9401,306.34873Q444.91751,362.69746,389.76916,379.12868Q334.62081,395.5599,292.31041,405.51079Q250,415.46168,211.58744,399.90076Q173.17487,384.33985,129.75051,364.27208Q86.32614,344.20432,43.75736,297.10216Q1.18858,250,44.75736,203.37132Q88.32614,156.74264,120.03439,118.00787Q151.74264,79.2731,200.87132,73.82614Q250,68.37919,306.26129,62.08744Q362.52259,55.79568,373.30647,114.45482Q384.09036,173.11396,413.52652,211.55698Q442.96269,250,443.9401,306.34873Z;
+    
+                            M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+                            "
+                            ></animate>
+                    </path>
+                  </svg>
+            </div> -->
+
+            <!-- <div class="liquid-shape">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <path fill="#12f7ff">
+                        <animate attributeName = "d"
+                            dur="20000ms"
+                            repeatCount = "indefinite"
+                            values = "M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+
+                            M432,304Q437,358,400.5,402.5Q364,447,307,442.5Q250,438,203.5,424Q157,410,103,388Q49,366,37.5,308Q26,250,65,208Q104,166,132.5,130.5Q161,95,205.5,76Q250,57,288,87.5Q326,118,359,143Q392,168,409.5,209Q427,250,432,304Z;
+    
+                            M439.96591,298.31007Q417.2749,346.62013,391.01678,397.1894Q364.75866,447.75866,307.37933,434.53409Q250,421.30953,202.36201,417.93074Q154.72403,414.55195,114.37987,383.06872Q74.03571,351.5855,74.2949,300.79275Q74.5541,250,68.79329,196.2408Q63.03248,142.48161,115.80953,125.56872Q168.58658,108.65584,209.29329,83.96591Q250,59.27597,303.93181,61.32631Q357.86363,63.37664,398.82953,101.65315Q439.79544,139.92966,451.22618,194.96483Q462.65692,250,439.96591,298.31007Z;
+    
+    
+                            M410.16473,300.1606Q424.42219,350.32119,400.81209,410.14239Q377.20199,469.96358,313.60099,492.39985Q250,514.83612,208.10099,455.65647Q166.20199,396.47682,102.74751,383.9404Q39.29304,371.40398,62.81622,310.70199Q86.3394,250,109.04637,215.68378Q131.75333,181.36756,123.31209,98.98592Q114.87085,16.60428,182.43542,40.74254Q250,64.8808,283.98592,98.75746Q317.97184,132.63413,386.48592,132.42716Q455,132.2202,425.45363,191.1101Q395.90727,250,410.16473,300.1606Z;
+    
+                            M437.13685,302.78796Q433.27299,355.57591,381.59052,372.27191Q329.90804,388.96791,289.95402,427.01389Q250,465.05987,200.42409,443.33321Q150.84818,421.60656,108.78796,388.66679Q66.72773,355.72701,77.80328,302.86351Q88.87883,250,104.34854,212.43942Q119.81825,174.87883,134.62153,125.57627Q149.42481,76.27371,199.7124,41.95438Q250,7.63506,299.77299,42.5898Q349.54598,77.54454,392.87883,109.93906Q436.21169,142.33357,438.6062,196.16679Q441.00072,250,437.13685,302.78796Z;
+    
+                            M406.24765,292.87426Q398.74743,335.74852,375.99967,382.3759Q353.25191,429.00328,301.62596,439.62618Q250,450.24907,192.49945,449.37546Q134.99891,448.50186,98.49923,403.62607Q61.99956,358.75027,63.49891,304.37514Q64.99825,250,70.74754,200.1241Q76.49683,150.2482,108.49803,105.24841Q140.49923,60.24863,195.24962,46.00033Q250,31.75202,308.37557,40.25005Q366.75115,48.74809,396.00022,98.87426Q425.24929,149.00044,419.49858,199.50022Q413.74787,250,406.24765,292.87426Z;
+    
+                            M443.9401,306.34873Q444.91751,362.69746,389.76916,379.12868Q334.62081,395.5599,292.31041,405.51079Q250,415.46168,211.58744,399.90076Q173.17487,384.33985,129.75051,364.27208Q86.32614,344.20432,43.75736,297.10216Q1.18858,250,44.75736,203.37132Q88.32614,156.74264,120.03439,118.00787Q151.74264,79.2731,200.87132,73.82614Q250,68.37919,306.26129,62.08744Q362.52259,55.79568,373.30647,114.45482Q384.09036,173.11396,413.52652,211.55698Q442.96269,250,443.9401,306.34873Z;
+    
+                            M405,295.5Q408,341,371.5,369.5Q335,398,292.5,441.5Q250,485,208,440Q166,395,127,369.5Q88,344,68,297Q48,250,53.5,195Q59,140,107,112.5Q155,85,202.5,64Q250,43,296.5,65.5Q343,88,386,117.5Q429,147,415.5,198.5Q402,250,405,295.5Z;
+                            "
+                            ></animate>
+                    </path>
+                  </svg>
+            </div> -->
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="img-about scroll-scale">
+            <img src="images/photo1.jpg" alt="">
+            <div class="info-about1">
+                <span>10</span>
+                <p>Months of Experience</p>
+            </div>
+        </div>
+
+        <div class="about-content scroll-scale">
+            <span>Let me introduce myself</span>
+            <h2>About ME</h2>
+            <!-- <h3>A story of good</h3> -->
+            <p>Professional with deep expertise in architectural interior design. Skilled in creating innovative and
+                functional spaces,
+                leveraging strong knowledge of design principles and materials. Known for teamwork, adaptability, and
+                delivering
+                high-quality results. Proficient in CAD software, space planning, and sustainable design practices.
+                Strong communicator
+                with focus on meeting client needs and achieving project goals.</p>
+
+            <div class="btn-box">
+                <a href="#education" class="btn">Read More!</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section --------------->
+    <section id="education" class="education">
+        <div class="main-heading scroll-scale">
+            <span><i class="fas fa-graduation-cap"></i></span>
+            <h2>Education</h2>
+        </div>
+
+
+        <div class="timeline scroll-scale">
+
+            <div class="timeline-box left ">
+                <div class="timeline-container">
+                    <div class="timeline-logo">
+                        <!-- <img src="images/school.png"> -->
+                    </div>
+                    <h3 class="experience-designation"> Metriculation </h3>
+                    <h4 class="experience-company-name "> High School Sarha </h4>
+                    <h5 class="experience-duration m0"> 2017 </h5>
+
+                    <p class="experience-description text-justify"> I completed my metriculation from High School Sarha,
+                        affiliated by Bihar Board. The school is located in Munger, Bihar.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box left ">
+                <div class="timeline-container">
+                    <div class="timeline-logo">
+                        <img src="images/school.png">
+                    </div>
+                    <h3 class="experience-designation"> Intermediate </h3>
+                    <h4 class="experience-company-name "> Amirchand Balika <br /> Uchh Vidyalaya </h4>
+                    <h5 class="experience-duration m0"> 2019 </h5>
+
+                    <p class="experience-description text-justify"> I completed my intermediate from Amirchand Balika
+                        Uchh Vidyalaya,
+                        affiliated by Open Board. The school is located in Ara, Bihar.</p>
+                </div>
+            </div>
+
+            <div class="timeline-box right ">
+                <div class="timeline-container">
+                    <div class="timeline-logo">
+                        <img src="images/government.jpg" style="border-radius: 10px;">
+                    </div>
+                    <h3 class="experience-designation"> Diploma </h3>
+                    <h4 class="experience-company-name"> Government Womens <br /> Polytechnic </h4>
+                    <h5 class="experience-duration m0"> 2019 - 2022 </h5>
+                    <p class="experience-description text-justify">I did my diploma from Phulwari Sharif, college
+                        name Government Womens
+                        Polytechnic. My specialization was architechural assistantship. This college is located at
+                        Patna.</p>
+                </div>
+            </div>
+
+            <div id="timeline-divider">
+                <div class="timeline-traveller">
+                    <div>
+                        <!-- <img width="65" height="65" src="https://img.icons8.com/matisse/100/car.png" alt="car"/> -->
+                        <img width="64" height="64"
+                            src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-plane-logistics-wanicon-lineal-color-wanicon.png"
+                            alt="external-plane-logistics-wanicon-lineal-color-wanicon" />
+                        <!-- <i class="fas fa-car-side"></i> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Service Section
+            <div class="section-services scroll-bottom">
+            <div class="service-box">
+                <i class='bx bxs-layer service-icon'></i>
+                <h3>Graphic Designer</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae adipisci quasi esse natus expedita. Explicabo eius reprehenderit veritatis ab quasi ipsa architecto fugiat molestias vitae
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-code-alt service-icon'></i>
+                <h3>Graphic Designer</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae adipisci quasi esse natus expedita. Explicabo eius reprehenderit veritatis ab quasi ipsa architecto fugiat molestias vitae
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <i class='bx bx-desktop service-icon'></i>
+                <h3>Graphic Designer</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae adipisci quasi esse natus expedita. Explicabo eius reprehenderit veritatis ab quasi ipsa architecto fugiat molestias vitae
+                </p>
+                <div class="btn-box service-btn">
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div> -->
+
+
+
+    <!-- Skill Section --------------->
+    <section id="skill" class="skill">
+        <div class="main-text scroll-scale">
+            <span>technical and professional</span>
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>AutoCAD</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="java"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Google SketchUP</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>V-Ray</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <span>90%</span>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <span>80%</span>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="65"></div>
+                        <div class="text">
+                            <span>65%</span>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <span>70%</span>
+                            <small>Comunication</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="project" class="project">
+        <div class="main-text scroll-scale">
+            <span>What I will do for you</span>
+            <h2>Latest Works</h2>
+        </div>
+
+        <div class="container">
+
+
+            <div class="portfolio-gallery scroll-bottom">
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/a15.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>2D House Layout</h3>
+                        <p>
+                            These 2D house layouts are designed to optimize space, functionality, and aesthetics.
+                            Whether compact or spacious, these
+                            plans cater to diverse housing needs.
+                        </p>
+                        <a href="https://autocad2dlayout.blogspot.com/2025/02/2d-house-layout-designs-using-autocad.html"
+                            target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/a9.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>3D House Layout</h3>
+                        <p>
+                            Designing a 3D house in AutoCAD is a meticulous process, but it allows for precise control
+                            over architectural details.
+                            The final output helps clients visualize their dream home before construction begins.
+                        </p>
+                        <a href="https://autocad2dlayout.blogspot.com/2025/02/3d-house-layout-using-autocad.html"
+                            target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="port-box">
+                    <div class="port-image">
+                        <img src="images/a1.jpg" alt="">
+                    </div>
+                    <div class="port-content">
+                        <h3>Office Interior Design</h3>
+                        <p>
+                            A modern office space with a sophisticated and elegant interior design.
+                        </p>
+                        <a href="https://autocad2dlayout.blogspot.com/2025/02/modern-executive-office-interior-design.html"
+                            target="_blank"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="main-text scroll-scale">
+            <span>ask me question</span>
+            <h2>Contact Me</h2>
+        </div>
+
+        <form action="#" class="scroll-scale">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <input type="text" placeholder="Your Address">
+            <input type="number" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <div class="btn-box formBtn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="scroll-scale">Copright &copy; 2024 by devRajeev || All Right Reserved.</p>
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
